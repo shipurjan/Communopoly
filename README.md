@@ -15,30 +15,34 @@ Przy każdym okrążeniu pola startu gracze otrzymują x punktów
 ![Prototyp planszy](./svg/plansza.svg)
 
 # Pola
-* **Cztery ciemnoniebieskie pola**: 
+* **Cztery ciemnoniebieskie pola**:
 
 "Syberia" - gracze na tych polach będą mieli utrudnioną możliwośc poruszania się.
 Aby przesunąć się o jedno polę trzeba wylosować dwa, o dwa pola cztery itd.
 
 
-* **Czarne pole z kilofem**: 
+* **Czarne pole z kilofem**:
 
 "Zsyłka na Syberię" - będzie to obszar który będzie się pojawiać na każdej mapie.
 Gdy wejdziemy na to pole zostaniemy automatycznie przeniesieni na Syberię, czas przeniesienia to 3 tury.
-Gracz może uniknąć przeniesienia pod warunkiem, że wylosował szóstkę bądź posiada Kartę partii Pracy. 
+Gracz może uniknąć przeniesienia pod warunkiem, że wylosował szóstkę bądź posiada Kartę partii Pracy.
 
 
-* **Czerwone pole z sierpem i młotem**: 
+* **Czerwone pole z sierpem i młotem**:
 
 "Redystrybucja majątku" - jeśli któryś z graczy wejdzię na to pole to automatycznie gracz z największą ilością punktów przekazuje *pewną ilość* swoich punktów osobię z najmniejszą ilością punktów.
 
 
-* **Niebieskie pole z czapką absolwenta**: 
+* **Niebieskie pole z czapką absolwenta**:
 
 "Przymuszona reedukacja" - gracz może opuścić to polę za zapłatą *pewnej ilości* swoich punktów bądź zostać tam na 3 tury podczas których będą wpajane mu idee komunizmu.
 
+* **Fioletowe pole ze znakiem zapytania**:
 
-* **Białe pola z pociągami**: 
+"Losowe wydarzenie" - gracz losuje kartę z puli kart. Wylosowana karta może mieć pozytywny efekt np. otrzymanie jakieś ilości kartek, lub negatywny efekt np. przeniesienie pionka gracza na Syberię lub inne nie specjalne pole.
+Pola losowego wydarzenia są na stałe przypisane do *Ukrainy* i *Uzbekistanu*.
+
+* **Białe pola z pociągami**:
 
 "Stacja kolejowa" - Umożliwia przemieszczenie się pionka gracza do innych pól stacji:
 Gracz może wybrać czy chce zapłacić *pewną ilość* kartek za przejazd, może wtedy wybrać na którą inną stację chce się przenieść.
