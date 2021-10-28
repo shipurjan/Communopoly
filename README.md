@@ -9,7 +9,9 @@ Gracz rozpoczyna ze stałą liczbą waluty ("kartek"), a wygrywa osoba która ja
 
 ![Prototyp planszy](./svg/plansza.svg)
 
-Na planszy będą 3 specjalne pola , jednym z nich będzie Zsyłka na Syberię , będzie to obszar który będzie się pojawiać na każdej mapie.
+Na planszy będą 3 specjalne pola , jednym z nich będzie "Zsyłka na Syberię", będzie to obszar który będzie się pojawiać na każdej mapie.
 Gdy wejdziemy na to pole zostaniemy automatycznie przeniesieni na Syberię, czas przeniesienia to 3 tury.
 Gracz może uniknąć przeniesienia pod warunkiem, że wylosował szóstkę bądź posiada Kratę partii Pracy.
+
+Kolejnym specjalnym polem jest "Redystrybucja majątku" jeśli któryś z graczy wejdzię na to pole to automatycznie gracz z największą ilością punktów przekazuje 25% swoich punktów osobię z najmniejszą ilością punktów.
 
