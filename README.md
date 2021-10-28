@@ -17,3 +17,4 @@ Kolejnym specjalnym polem jest <span style="color:red">some emphasized markdown 
 
 Ostatnie pole specjalne to "Przymuszona reedukacja" gracz może opuścić to polę za zapłatą x% swoich punktów bądź zostać tam na 3 tury podczas których będą wpajane mu idee komunizmu
 
+Poza specjalnymi polami gracze będą przemieszczać się po terenach krajów należących do Związeku Radzieckiego.
