@@ -20,4 +20,4 @@ Ostatnie pole specjalne to <strong>Niebieskie polę z czapką</strong> "Przymusz
 Poza specjalnymi polami gracze będą przemieszczać się po terenach krajów należących do Związeku Radzieckiego.
 
 Na planszy będą 4 pola należące do obszaru Syberii, graczę na tych polach będą mieli utrudnioną możliwośc poruszania się.
-Aby przesunąć się o jedno polę trzeba wylosować dwa, o dwa pola czter itd.
+Aby przesunąć się o jedno polę trzeba wylosować dwa, o dwa pola cztery itd.
