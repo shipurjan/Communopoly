@@ -19,3 +19,7 @@ Gracz może uniknąć przeniesienia pod warunkiem, że wylosował szóstkę bąd
 **Czerwone pole z sierpem i młotem**: "Redystrybucja majątku" - jeśli któryś z graczy wejdzię na to pole to automatycznie gracz z największą ilością punktów przekazuje *pewną ilość* swoich punktów osobię z najmniejszą ilością punktów.
 
 **Niebieskie pole z czapką absolwenta**: "Przymuszona reedukacja" - gracz może opuścić to polę za zapłatą *pewnej ilości* swoich punktów bądź zostać tam na 3 tury podczas których będą wpajane mu idee komunizmu.
+
+**Pola Stacji Kolejowej** - Umożliwia przemieszczenie się pionka gracza do innych pól stacji:
+<li> Gracz może wybrać czy chce zapłacić *pewną ilość* kartek< za przejazd, może wtedy wybrać na którą inną stację chce się przenieść.
+<li> Może też wybrać jazdę na gapę/bez opłaty, ale nie może wtedy wybrać stacji docelowej i pionek będzie przenoszony na losową stację (oprócz stacji na której stoi pionek)
