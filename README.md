@@ -28,13 +28,6 @@ Gracze na tych polach będą mieli utrudnioną możliwośc poruszania się.
 Aby przesunąć się o jedno polę trzeba wylosować dwa, o dwa pola cztery itd.
 
 
-* ![Czarne pole](./svg/czarne_pole.svg) **"Zsyłka na Syberię"**:
-
-Będzie to obszar który będzie się pojawiać na każdej mapie.
-Gdy wejdziemy na to pole zostaniemy automatycznie przeniesieni na Syberię, czas przeniesienia to 3 tury.
-Gracz może uniknąć przeniesienia pod warunkiem, że wylosował szóstkę bądź posiada Kartę partii Pracy.
-
-
 * ![Białe pola](./svg/biale_pole.svg) **"Stacja kolejowa"**:
 
 Umożliwia przemieszczenie się pionka gracza do innych pól stacji:
@@ -58,3 +51,9 @@ Jeśli któryś z graczy wejdzię na to pole to automatycznie gracz z największ
 
  Gracz może opuścić to polę za zapłatą *pewnej ilości* swoich punktów bądź zostać tam na 3 tury podczas których będą wpajane mu idee komunizmu.
 
+
+* ![Czarne pole](./svg/czarne_pole.svg) **"Zsyłka na Syberię"**:
+
+Będzie to obszar który będzie się pojawiać na każdej mapie.
+Gdy wejdziemy na to pole zostaniemy automatycznie przeniesieni na Syberię, czas przeniesienia to 3 tury.
+Gracz może uniknąć przeniesienia pod warunkiem, że wylosował szóstkę bądź posiada Kartę partii Pracy.
