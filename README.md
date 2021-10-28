@@ -13,7 +13,7 @@ Na planszy będą 3 specjalne pola , jednym z nich będzie "Zsyłka na Syberię"
 Gdy wejdziemy na to pole zostaniemy automatycznie przeniesieni na Syberię, czas przeniesienia to 3 tury.
 Gracz może uniknąć przeniesienia pod warunkiem, że wylosował szóstkę bądź posiada Kartę partii Pracy.
 
-Kolejnym specjalnym polem jest "Redystrybucja majątku" jeśli któryś z graczy wejdzię na to pole to automatycznie gracz z największą ilością punktów przekazuje 25% swoich punktów osobię z najmniejszą ilością punktów.
+Kolejnym specjalnym polem jest "Redystrybucja majątku" jeśli któryś z graczy wejdzię na to pole to automatycznie gracz z największą ilością punktów przekazuje x% swoich punktów osobię z najmniejszą ilością punktów.
 
-Ostatnie pole specjalne to "Przymuszona reedukacja" gracz może opuścić to polę za zapłatą 30% swoich punktów bądź zostać tam na 3 tury podczas których będą wpajane mu idee komunizmu
+Ostatnie pole specjalne to "Przymuszona reedukacja" gracz może opuścić to polę za zapłatą x% swoich punktów bądź zostać tam na 3 tury podczas których będą wpajane mu idee komunizmu
 
