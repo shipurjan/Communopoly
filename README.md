@@ -37,3 +37,8 @@ Gracz może uniknąć przeniesienia pod warunkiem, że wylosował szóstkę bąd
 "Stacja kolejowa" - Umożliwia przemieszczenie się pionka gracza do innych pól stacji:
 Gracz może wybrać czy chce zapłacić *pewną ilość* kartek< za przejazd, może wtedy wybrać na którą inną stację chce się przenieść.
 Może też wybrać jazdę na gapę/bez opłaty, ale nie może wtedy wybrać stacji docelowej i pionek będzie przenoszony na losową stację (oprócz stacji na której stoi pionek)
+
+
+* **Bordowe pola z krajami**:
+
+Bordowe pola są losowo wybranymi krajami należącymi do ZSRR. Każdy z nich będzie posiadać swoje unikalne wydarzenia. Poruszanie się w nich będzie skutkować zyskiem lub straty waluty.
