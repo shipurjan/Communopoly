@@ -3,11 +3,11 @@ Gra inspirowana Monopoly lub Eurobusiness z motywem komunistycznym
 
 # Zasady
 
-Gracz rozpoczyna ze stałą liczbą punktów, a wygrywa osoba która jako ostatnia wszystkie je straci.
+* Gracz rozpoczyna ze stałą liczbą punktów, a wygrywa osoba która jako ostatnia wszystkie je straci.
 
-Przy każdym okrążeniu pola startu gracze otrzymują x punktów.
+* Przy każdym okrążeniu pola startu gracze otrzymują x punktów.
 
-Oto o ile pól poruszy się gracz zadecyduje rzut kostką.
+* Oto o ile pól poruszy się gracz zadecyduje rzut kostką.
 
 ![Prototyp planszy](./svg/plansza.svg)
 
