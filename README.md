@@ -12,6 +12,8 @@ Przy każdym okrążeniu pola startu gracze otrzymują x punktów
 
 * Oto o ile pól poruszy się gracz zadecyduje rzut kostką.
 
+* Gracz będzie korzystał z kartek aby poruszać się po planszy lub reagować na wydarzenia.
+
 ![Prototyp planszy](./svg/plansza.svg)
 
 # Pola
