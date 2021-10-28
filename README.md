@@ -35,5 +35,5 @@ Gracz może uniknąć przeniesienia pod warunkiem, że wylosował szóstkę bąd
 * **Białe pola z pociągami**: 
 
 "Stacja kolejowa" - Umożliwia przemieszczenie się pionka gracza do innych pól stacji:
-Gracz może wybrać czy chce zapłacić *pewną ilość* kartek< za przejazd, może wtedy wybrać na którą inną stację chce się przenieść.
+Gracz może wybrać czy chce zapłacić *pewną ilość* kartek za przejazd, może wtedy wybrać na którą inną stację chce się przenieść.
 Może też wybrać jazdę na gapę/bez opłaty, ale nie może wtedy wybrać stacji docelowej i pionek będzie przenoszony na losową stację (oprócz stacji na której stoi pionek)
