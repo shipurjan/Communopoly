@@ -15,6 +15,7 @@ Gracz może uniknąć przeniesienia pod warunkiem, że wylosował szóstkę bąd
 
 Kolejnym specjalnym polem jest <strong>Czerwone pole z sierpem i młotem</strong> "Redystrybucja majątku" jeśli któryś z graczy wejdzię na to pole to automatycznie gracz z największą ilością punktów przekazuje x% swoich punktów osobię z najmniejszą ilością punktów.
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 Poza specjalnymi polami gracze będą przemieszczać się po terenach krajów należących do Związeku Radzieckiego.
@@ -27,3 +28,11 @@ Ostatnie pole specjalne to <strong>Niebieskie polę z czapką</strong> "Przymusz
 >>>>>>> 5fee6d4f2f55939d136b820bc9c4c717dc11f24f
 
 Poza specjalnymi polami gracze będą przemieszczać się po terenach krajów należących do Związeku Radzieckiego oznaczonych kolorem bordowym.
+=======
+
+<b>Pole Stacji Kolejowej</b> - Umożliwia przemieszczenie się pionka gracza do innych pól stacji:
+<li> Gracz może wybrać czy chce zapłacić określoną ilością <i>kartek</i> za przejazd, może wtedy wybrać na które pole chce się przenieść.
+<li> Może też wybrać jazdę na gapę/ bez opłaty, ale nie może wtedy wybrać stacji docelowej i pionek będzie przenoszony na losową stację (oprócz stacji na której stoi pionek)
+
+Ostatnie pole specjalne to <strong>Niebieskie polę z czapką</strong> "Przymuszona reedukacja" gracz może opuścić to polę za zapłatą x% swoich punktów bądź zostać tam na 3 tury podczas których będą wpajane mu idee komunizmu.
+>>>>>>> 5fee6d4f2f55939d136b820bc9c4c717dc11f24f
