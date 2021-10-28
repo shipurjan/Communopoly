@@ -1,4 +1,4 @@
-# communopoly
+# Communopoly
 Gra inspirowana Monopoly lub Eurobusiness z motywem komunistycznym
 
 # Zasady
