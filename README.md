@@ -19,7 +19,7 @@ Aby przesunąć się o jedno polę trzeba wylosować dwa, o dwa pola cztery itd.
 
 "Zsyłka na Syberię" - będzie to obszar który będzie się pojawiać na każdej mapie.
 Gdy wejdziemy na to pole zostaniemy automatycznie przeniesieni na Syberię, czas przeniesienia to 3 tury.
-Gracz może uniknąć przeniesienia pod warunkiem, że wylosował szóstkę bądź posiada Kartę partii Pracy. Znakiem rozpoznawczym tego pola będzie
+Gracz może uniknąć przeniesienia pod warunkiem, że wylosował szóstkę bądź posiada Kartę partii Pracy. 
 
 
 * **Czerwone pole z sierpem i młotem**: 
