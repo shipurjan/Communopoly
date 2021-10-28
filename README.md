@@ -18,3 +18,5 @@ Kolejnym specjalnym polem jest <strong>Czerwone pole z sierpem i młotem</strong
 Ostatnie pole specjalne to <strong>Niebieskie polę z czapką</strong> "Przymuszona reedukacja" gracz może opuścić to polę za zapłatą x% swoich punktów bądź zostać tam na 3 tury podczas których będą wpajane mu idee komunizmu.
 
 Poza specjalnymi polami gracze będą przemieszczać się po terenach krajów należących do Związeku Radzieckiego.
+
+Każda rozgrywka będzie unikalna przez losowo wybrane kraje związkowe na losowo wybranych polach i są oznaczone kolorem bordowym.
