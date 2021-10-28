@@ -14,12 +14,12 @@ Gra inspirowana Monopoly lub Eurobusiness z motywem komunistycznym
 ![Prototyp planszy](./svg/plansza.svg)
 
 # Pola
-* ![Zielone_pole](./svg/zielone_pole.svg) **"Start"**:
+* ![Zielone_pole](./svg/zielone_pole.svg) **"Start"**
 
 
-* ![Bordowe pole](./svg/bordowe_pole.svg) **Republiki ZSRR**:
+* ![Bordowe pole](./svg/bordowe_pole.svg) **"Republiki ZSRR"**:
 
-Bordowe pola są losowo wybranymi krajami należącymi do ZSRR. Każdy z nich będzie posiadać swoje unikalne wydarzenia. Poruszanie się w nich będzie skutkować zyskiem lub straty waluty.
+Losowo wybrane republiki ZSRR, składające się z czterech kolejnych bordowych pól. Każdy z nich będzie posiadać swoje unikalne wydarzenia. Poruszanie się w nich będzie skutkować zyskiem lub straty waluty.
 
 
 * ![Niebieskie pola](./svg/niebieskie_pole.svg) **"Syberia"**:
