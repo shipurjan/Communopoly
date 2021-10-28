@@ -9,7 +9,7 @@ Gracz rozpoczyna ze stałą liczbą waluty ("kartek"), a wygrywa osoba która ja
 
 ![Prototyp planszy](./svg/plansza.svg)
 
-Na planszy będą 3 specjalne pola , Roses are \textcolor{red}{red} jednym z nich będzie "Zsyłka na Syberię", będzie to obszar który będzie się pojawiać na każdej mapie.
+Na planszy będą 3 specjalne pola ,  jednym z nich będzie "Zsyłka na Syberię", będzie to obszar który będzie się pojawiać na każdej mapie.
 Gdy wejdziemy na to pole zostaniemy automatycznie przeniesieni na Syberię, czas przeniesienia to 3 tury.
 Gracz może uniknąć przeniesienia pod warunkiem, że wylosował szóstkę bądź posiada Kartę partii Pracy. Znakiem rozpoznawczym tego pola będzie
 
