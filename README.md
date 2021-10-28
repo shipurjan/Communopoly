@@ -8,3 +8,6 @@ Może jakieś dodatkowe tryby typu mgła, podkładanie przeszkód za pieniążki
 Gracz rozpoczyna ze stałą liczbą waluty ("kartek"), a wygrywa osoba która jako ostatnia wszystkie je straci..
 
 ![Prototyp planszy](./svg/plansza.svg)
+
+Na planszy będzię 8 specjalnych obszarów, jednym z nich będzie Sybieria, będzie to obszar który będzie się pojawiać na każdej mapie.
+
