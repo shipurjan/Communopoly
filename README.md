@@ -15,5 +15,5 @@ Gracz może uniknąć przeniesienia pod warunkiem, że wylosował szóstkę bąd
 
 Kolejnym specjalnym polem jest <span style="color:red">Czerwone polę z sierpem i młotem</span> "Redystrybucja majątku" jeśli któryś z graczy wejdzię na to pole to automatycznie gracz z największą ilością punktów przekazuje x% swoich punktów osobię z najmniejszą ilością punktów.
 
-Ostatnie pole specjalne to "Przymuszona reedukacja" gracz może opuścić to polę za zapłatą x% swoich punktów bądź zostać tam na 3 tury podczas których będą wpajane mu idee komunizmu
+Ostatnie pole specjalne to "Przymuszona reedukacja" gracz może opuścić to polę za zapłatą x% swoich punktów bądź zostać tam na 3 tury podczas których będą wpajane mu idee komunizmu <span style="color:red">some **This is Red Bold.** text</span>
 
