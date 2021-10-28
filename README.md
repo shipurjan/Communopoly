@@ -1,7 +1,7 @@
 # Communopoly
 Gra inspirowana Monopoly lub Eurobusiness z motywem komunistycznym*
 
-\*użyty tylko i wyłącznie w celach humorystycznych, a nie w celu propagowania ideologii
+\*użyty tylko i wyłącznie w celach humorystycznych, a nie propagowania ideologii
 
 # Zasady
 
