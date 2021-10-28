@@ -9,5 +9,5 @@ Gracz rozpoczyna ze stałą liczbą waluty ("kartek"), a wygrywa osoba która ja
 
 ![Prototyp planszy](./svg/plansza.svg)
 
-Na planszy będzię 8 specjalnych obszarów, jednym z nich będzie Sybieria, będzie to obszar który będzie się pojawiać na każdej mapie.
+Na planszy będzią 3 specjalne pola , jednym z nich będzie Zsyłka na Syberię , będzie to obszar który będzie się pojawiać na każdej mapie.
 
