@@ -14,6 +14,14 @@ Gra inspirowana Monopoly lub Eurobusiness z motywem komunistycznym
 ![Prototyp planszy](./svg/plansza.svg)
 
 # Pola
+* ![Zielone_pole](./svg/zielone_pole.svg) **"Start"**:
+
+
+* ![Bordowe pole](./svg/bordowe_pole.svg) **Republiki ZSRR**:
+
+Bordowe pola są losowo wybranymi krajami należącymi do ZSRR. Każdy z nich będzie posiadać swoje unikalne wydarzenia. Poruszanie się w nich będzie skutkować zyskiem lub straty waluty.
+
+
 * ![Niebieskie pola](./svg/niebieskie_pole.svg) **"Syberia"**:
 
 Gracze na tych polach będą mieli utrudnioną możliwośc poruszania się.
@@ -27,6 +35,20 @@ Gdy wejdziemy na to pole zostaniemy automatycznie przeniesieni na Syberię, czas
 Gracz może uniknąć przeniesienia pod warunkiem, że wylosował szóstkę bądź posiada Kartę partii Pracy.
 
 
+* ![Białe pola](./svg/biale_pole.svg) **"Stacja kolejowa"**:
+
+Umożliwia przemieszczenie się pionka gracza do innych pól stacji:
+Gracz może wybrać czy chce zapłacić *pewną ilość* kartek za przejazd, może wtedy wybrać na którą inną stację chce się przenieść.
+
+Może też wybrać jazdę na gapę/bez opłaty, ale nie może wtedy wybrać stacji docelowej i pionek będzie przenoszony na losową stację (oprócz stacji na której stoi pionek)
+
+
+* ![Fioletowe pole](./svg/fioletowe_pole.svg) **"Losowe wydarzenie"**:
+
+Gracz losuje kartę z puli kart. Wylosowana karta może mieć pozytywny efekt np. otrzymanie jakieś ilości kartek, lub negatywny efekt np. przeniesienie pionka gracza na Syberię lub inne nie specjalne pole.
+Pola losowego wydarzenia są na stałe przypisane do *Ukrainy* i *Uzbekistanu*.
+
+
 * ![Czerwone pole](./svg/czerwone_pole.svg) **"Redystrybucja majątku"**:
 
 Jeśli któryś z graczy wejdzię na to pole to automatycznie gracz z największą ilością punktów przekazuje *pewną ilość* swoich punktów osobię z najmniejszą ilością punktów.
@@ -36,20 +58,3 @@ Jeśli któryś z graczy wejdzię na to pole to automatycznie gracz z największ
 
  Gracz może opuścić to polę za zapłatą *pewnej ilości* swoich punktów bądź zostać tam na 3 tury podczas których będą wpajane mu idee komunizmu.
 
-
-* ![Fioletowe pole](./svg/fioletowe_pole.svg) **"Losowe wydarzenie"**:
-
-Gracz losuje kartę z puli kart. Wylosowana karta może mieć pozytywny efekt np. otrzymanie jakieś ilości kartek, lub negatywny efekt np. przeniesienie pionka gracza na Syberię lub inne nie specjalne pole.
-Pola losowego wydarzenia są na stałe przypisane do *Ukrainy* i *Uzbekistanu*.
-
-
-* ![Białe pola](./svg/biale_pole.svg) **"Stacja kolejowa"**:
-
-Umożliwia przemieszczenie się pionka gracza do innych pól stacji:
-Gracz może wybrać czy chce zapłacić *pewną ilość* kartek za przejazd, może wtedy wybrać na którą inną stację chce się przenieść.
-
-Może też wybrać jazdę na gapę/bez opłaty, ale nie może wtedy wybrać stacji docelowej i pionek będzie przenoszony na losową stację (oprócz stacji na której stoi pionek)
-
-* ![Bordowe pole](./svg/bordowe_pole.svg) **Bordowe pola z krajami**:
-
-Bordowe pola są losowo wybranymi krajami należącymi do ZSRR. Każdy z nich będzie posiadać swoje unikalne wydarzenia. Poruszanie się w nich będzie skutkować zyskiem lub straty waluty.
