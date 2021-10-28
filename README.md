@@ -3,9 +3,6 @@ Gra inspirowana Monopoly lub Eurobusiness z motywem komunistycznym
 
 # Zasady
 
-Gracz rozpoczyna ze stałą liczbą punktów, a wygrywa osoba która jako ostatnia wszystkie je straci.
-Przy każdym okrążeniu pola startu gracze otrzymują x punktów
-
 * Gracz rozpoczyna ze stałą liczbą punktów, a wygrywa osoba która jako ostatnia wszystkie je straci.
 
 * Przy każdym okrążeniu pola startu gracze otrzymują x punktów.
@@ -50,8 +47,8 @@ Pola losowego wydarzenia są na stałe przypisane do *Ukrainy* i *Uzbekistanu*.
 
 Umożliwia przemieszczenie się pionka gracza do innych pól stacji:
 Gracz może wybrać czy chce zapłacić *pewną ilość* kartek za przejazd, może wtedy wybrać na którą inną stację chce się przenieść.
-Może też wybrać jazdę na gapę/bez opłaty, ale nie może wtedy wybrać stacji docelowej i pionek będzie przenoszony na losową stację (oprócz stacji na której stoi pionek)
 
+Może też wybrać jazdę na gapę/bez opłaty, ale nie może wtedy wybrać stacji docelowej i pionek będzie przenoszony na losową stację (oprócz stacji na której stoi pionek)
 
 * ![Bordowe pole](./svg/bordowe_pole.svg) **Bordowe pola z krajami**:
 
