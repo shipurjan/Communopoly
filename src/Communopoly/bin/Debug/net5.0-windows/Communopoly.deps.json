@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "Communopoly/1.0.0": {
+        "dependencies": {
+          "Library": "1.0.0"
+        },
         "runtime": {
           "Communopoly.dll": {}
+        }
+      },
+      "Library/1.0.0": {
+        "runtime": {
+          "Library.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Communopoly/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

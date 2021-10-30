@@ -5,8 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Communopoly"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="MainWindow" Height="768" Width="1152" ResizeMode="NoResize">
+    <Window.Resources>
+        <SolidColorBrush x:Key="GreenColor" Color="#19734f" />
+        <SolidColorBrush x:Key="DarkRedColor" Color="#9a1c19" />
+        <SolidColorBrush x:Key="WhiteColor" Color="#fffcfc" />
+        <SolidColorBrush x:Key="PurpleColor" Color="#7f0f70" />
+        <SolidColorBrush x:Key="TurquoiseColor" Color="#0088aa" />
+        <SolidColorBrush x:Key="BlackColor" Color="#000000" />
+        <SolidColorBrush x:Key="RedColor" Color="#cc0000" />
+        <SolidColorBrush x:Key="BlueColor" Color="#1b395d" />
+        <SolidColorBrush x:Key="KhakiColor" Color="#ab734c" />
+        <SolidColorBrush x:Key="BeigeColor" Color="#b9baa8" />
+    </Window.Resources>
+    <Grid x:Name="root">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Border>
+            <Border.Style>
+                <Style>
+                    <Setter Property="Border.Background" Value="{StaticResource BeigeColor}"></Setter>
+                </Style>
+            </Border.Style>
+        </Border>
+    </Grid >
 </Window>

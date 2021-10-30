@@ -2,5 +2,7 @@
 {
     public class Game
     {
+        public Board Board { get; set; }
+
     }
 }

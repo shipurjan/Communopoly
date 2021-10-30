@@ -1,0 +1,12 @@
+C:\Users\niar\Documents\github\Communopoly\src\Library\bin\Debug\net5.0-windows\Library.deps.json
+C:\Users\niar\Documents\github\Communopoly\src\Library\bin\Debug\net5.0-windows\Library.dll
+C:\Users\niar\Documents\github\Communopoly\src\Library\bin\Debug\net5.0-windows\ref\Library.dll
+C:\Users\niar\Documents\github\Communopoly\src\Library\bin\Debug\net5.0-windows\Library.pdb
+C:\Users\niar\Documents\github\Communopoly\src\Library\obj\Debug\net5.0-windows\Library.csproj.AssemblyReference.cache
+C:\Users\niar\Documents\github\Communopoly\src\Library\obj\Debug\net5.0-windows\Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\niar\Documents\github\Communopoly\src\Library\obj\Debug\net5.0-windows\Library.AssemblyInfoInputs.cache
+C:\Users\niar\Documents\github\Communopoly\src\Library\obj\Debug\net5.0-windows\Library.AssemblyInfo.cs
+C:\Users\niar\Documents\github\Communopoly\src\Library\obj\Debug\net5.0-windows\Library.csproj.CoreCompileInputs.cache
+C:\Users\niar\Documents\github\Communopoly\src\Library\obj\Debug\net5.0-windows\Library.dll
+C:\Users\niar\Documents\github\Communopoly\src\Library\obj\Debug\net5.0-windows\ref\Library.dll
+C:\Users\niar\Documents\github\Communopoly\src\Library\obj\Debug\net5.0-windows\Library.pdb

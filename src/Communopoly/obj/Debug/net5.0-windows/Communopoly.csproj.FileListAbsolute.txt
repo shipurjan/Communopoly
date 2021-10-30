@@ -20,3 +20,6 @@ C:\Users\niar\Documents\github\Communopoly\src\Communopoly\obj\Debug\net5.0-wind
 C:\Users\niar\Documents\github\Communopoly\src\Communopoly\obj\Debug\net5.0-windows\ref\Communopoly.dll
 C:\Users\niar\Documents\github\Communopoly\src\Communopoly\obj\Debug\net5.0-windows\Communopoly.pdb
 C:\Users\niar\Documents\github\Communopoly\src\Communopoly\obj\Debug\net5.0-windows\Communopoly.genruntimeconfig.cache
+C:\Users\niar\Documents\github\Communopoly\src\Communopoly\bin\Debug\net5.0-windows\Library.dll
+C:\Users\niar\Documents\github\Communopoly\src\Communopoly\bin\Debug\net5.0-windows\Library.pdb
+C:\Users\niar\Documents\github\Communopoly\src\Communopoly\obj\Debug\net5.0-windows\Communopoly.csproj.CopyComplete
