@@ -5,12 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:src"
         mc:Ignorable="d"
-        Title="MainWindow" Height="640" Width="960">
+        Title="Communopoly" Height="640" Width="960">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="640*"/>
-            <ColumnDefinition Width="320*"/>
+            <ColumnDefinition Width="640"/>
+            <ColumnDefinition Width="320"/>
         </Grid.ColumnDefinitions>
-
     </Grid>
 </Window>

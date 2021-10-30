@@ -6,11 +6,9 @@ C:\Users\niar\Documents\github\Communopoly\src\src\bin\Debug\net5.0-windows\src.
 C:\Users\niar\Documents\github\Communopoly\src\src\bin\Debug\net5.0-windows\ref\src.dll
 C:\Users\niar\Documents\github\Communopoly\src\src\bin\Debug\net5.0-windows\src.pdb
 C:\Users\niar\Documents\github\Communopoly\src\src\obj\Debug\net5.0-windows\src.csproj.AssemblyReference.cache
-C:\Users\niar\Documents\github\Communopoly\src\src\obj\Debug\net5.0-windows\MainWindow.g.cs
 C:\Users\niar\Documents\github\Communopoly\src\src\obj\Debug\net5.0-windows\App.g.cs
 C:\Users\niar\Documents\github\Communopoly\src\src\obj\Debug\net5.0-windows\src_MarkupCompile.cache
 C:\Users\niar\Documents\github\Communopoly\src\src\obj\Debug\net5.0-windows\src_MarkupCompile.lref
-C:\Users\niar\Documents\github\Communopoly\src\src\obj\Debug\net5.0-windows\MainWindow.baml
 C:\Users\niar\Documents\github\Communopoly\src\src\obj\Debug\net5.0-windows\src.g.resources
 C:\Users\niar\Documents\github\Communopoly\src\src\obj\Debug\net5.0-windows\src.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\niar\Documents\github\Communopoly\src\src\obj\Debug\net5.0-windows\src.AssemblyInfoInputs.cache
@@ -20,3 +18,5 @@ C:\Users\niar\Documents\github\Communopoly\src\src\obj\Debug\net5.0-windows\src.
 C:\Users\niar\Documents\github\Communopoly\src\src\obj\Debug\net5.0-windows\ref\src.dll
 C:\Users\niar\Documents\github\Communopoly\src\src\obj\Debug\net5.0-windows\src.pdb
 C:\Users\niar\Documents\github\Communopoly\src\src\obj\Debug\net5.0-windows\src.genruntimeconfig.cache
+C:\Users\niar\Documents\github\Communopoly\src\src\obj\Debug\net5.0-windows\Communopoly.g.cs
+C:\Users\niar\Documents\github\Communopoly\src\src\obj\Debug\net5.0-windows\Communopoly.baml
