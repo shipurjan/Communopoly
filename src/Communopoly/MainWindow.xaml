@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Communopoly"
         mc:Ignorable="d"
-        Title="MainWindow" Height="768" Width="1152" ResizeMode="NoResize">
+        Title="Communopoly" Height="768" Width="1152" ResizeMode="NoResize">
     <Window.Resources>
         <SolidColorBrush x:Key="GreenColor" Color="#19734f" />
         <SolidColorBrush x:Key="DarkRedColor" Color="#9a1c19" />
@@ -20,15 +20,15 @@
     </Window.Resources>
     <Grid x:Name="root">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"></ColumnDefinition>
-            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Border>
-            <Border.Style>
-                <Style>
-                    <Setter Property="Border.Background" Value="{StaticResource BeigeColor}"></Setter>
-                </Style>
-            </Border.Style>
-        </Border>
-    </Grid >
+        <Grid ShowGridLines="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0">Plansza</TextBlock>
+            <TextBlock Grid.Column="1">Info</TextBlock>
+        </Grid>
+    </Grid>
 </Window>

@@ -1,6 +1,7 @@
 ﻿using Library.Spaces;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,7 @@ namespace Library
     {
         private string backgroundColor;
         public const int Size = 40;
-        public List<Space> Spaces { get; set; }
+        public ObservableCollection<Space> Spaces { get; set; }
 
         public Board()
         {
@@ -23,7 +24,7 @@ namespace Library
             Random rnd = new Random();
             int siberiaStart = rnd.Next(0, 8) * 5 + 1;
 
-            Spaces = new List<Space>();
+            Spaces = new ObservableCollection<Space>();
 
             for (int pos = 0; pos < Size; pos++)
                 Spaces.Add(pos switch
