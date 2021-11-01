@@ -10,8 +10,9 @@ class LibraryTest
     {
         // Display the number of command line arguments.
         Board board01 = new();
-        for (int i = 0; i < Board.Size; i++) {
-            Console.WriteLine(board01.Spaces[i].Type);
+        for (int i = 0; i < Board.Size; i++)
+        {
+            Console.WriteLine(board01.Spaces[i]);
         }
     }
 }

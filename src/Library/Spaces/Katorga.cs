@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Library.Spaces
 {
-    class Katorga
+    class Katorga : Space
     {
     }
 }

@@ -6,15 +6,17 @@ using System.Threading.Tasks;
 
 namespace Library
 {
-    public class Space
+    public abstract class Space
     {
-        public int Position { get; set; }
-        public string Type { get; set; }
-
-        public Space(int position, string type)
+        protected int position;
+        public void SetPosition(int p)
         {
-            Position = position;
-            Type = type;
+            position = p;
         }
+        public int GetPosition()
+        {
+            return position;
+        }
+
     }
 }

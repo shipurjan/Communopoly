@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Library.Spaces
 {
-    class Start
+    class Start : Space
     {
     }
 }

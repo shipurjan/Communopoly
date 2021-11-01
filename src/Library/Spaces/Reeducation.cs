@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Library.Spaces
 {
-    class Reeducation
+    class Reeducation : Space
     {
     }
 }

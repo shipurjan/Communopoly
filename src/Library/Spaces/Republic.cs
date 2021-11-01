@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Library.Spaces
 {
-    class Republic
+    public abstract class Republic : Space
     {
+
     }
 }
