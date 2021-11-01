@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Library
 {
-    class Piece
+    class Piece : PropertyChangedBase
     {
     }
 }

@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace Library
 {
-    public abstract class Space
+    public abstract class Space : PropertyChangedBase
     {
         protected int position;
+        private SpaceColor spaceColor;
+        public SpaceColor SpaceColor { get; set; }
+        public void SetSpaceColor(SpaceColor c)
+        {
+            spaceColor = c;
+        }
         public void SetPosition(int p)
         {
             position = p;
@@ -18,5 +24,15 @@ namespace Library
             return position;
         }
 
+    }
+    public enum SpaceColor
+    {
+        republic,
+        chance,
+        katorga,
+        redistribution,
+        reeducation,
+        start,
+        station
     }
 }

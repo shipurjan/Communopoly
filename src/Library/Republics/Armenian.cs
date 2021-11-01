@@ -9,5 +9,6 @@ namespace Library.Republics
 {
     class Armenian : Republic
     {
+
     }
 }

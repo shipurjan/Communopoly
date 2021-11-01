@@ -11,9 +11,8 @@ using System.Threading.Tasks;
 namespace Library
 {
 
-    public class Board
+    public class Board : PropertyChangedBase
     {
-        private string backgroundColor;
         public const int Size = 40;
         public ObservableCollection<Space> Spaces { get; set; }
 

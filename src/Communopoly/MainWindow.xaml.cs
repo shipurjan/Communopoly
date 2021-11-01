@@ -24,7 +24,6 @@ namespace Communopoly
 
         public MainWindow()
         {
-            Console.WriteLine("lmao");
             InitializeComponent();
         }
     }

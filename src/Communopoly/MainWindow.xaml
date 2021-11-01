@@ -4,8 +4,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Communopoly"
+        xmlns:vm="clr-namespace:Communopoly.ViewModels"
         mc:Ignorable="d"
-        Title="Communopoly" Height="768" Width="1152" WindowStyle="SingleBorderWindow" ResizeMode="NoResize" BorderThickness="0,0,0,0">
+        Title="Communopoly" Height="768" Width="1152" Background="#2D2D30" WindowStyle="SingleBorderWindow" ResizeMode="NoResize" BorderThickness="0,0,0,0">
     <Window.Resources>
         <SolidColorBrush x:Key="StartColor" Color="#19734f" />
         <SolidColorBrush x:Key="RepublicColor" Color="#9a1c19" />
@@ -73,64 +74,36 @@
                     <RowDefinition Height="12*"></RowDefinition>
                     <RowDefinition Height="20"></RowDefinition>
                 </Grid.RowDefinitions>
-                <Rectangle Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="15" Grid.RowSpan="15" Fill="{StaticResource BoardBorderColor}"/>
 
-                <Rectangle Grid.Column="1" Grid.Row="1" Fill="{StaticResource KatorgaColor}" />
-                <Rectangle Grid.Column="13" Grid.Row="1" Fill="{StaticResource RedistributionColor}" />
-                <Rectangle Grid.Column="13" Grid.Row="13" Fill="{StaticResource StartColor}" />
-                <Rectangle Grid.Column="1" Grid.Row="13" Fill="{StaticResource ReeducationColor}" />
-                
-                <Rectangle Grid.Column="2" Grid.Row="13" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="3" Grid.Row="13" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="4" Grid.Row="13" Fill="{StaticResource ChanceColor}"/>
-                <Rectangle Grid.Column="5" Grid.Row="13" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="6" Grid.Row="13" Fill="{StaticResource BoardBorderColor}"/>
-                <Rectangle Grid.Column="7" Grid.Row="13" Fill="{StaticResource StationColor}"/>
-                <Rectangle Grid.Column="8" Grid.Row="13" Fill="{StaticResource BoardBorderColor}"/>
-                <Rectangle Grid.Column="9" Grid.Row="13" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="10" Grid.Row="13" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="11" Grid.Row="13" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="12" Grid.Row="13" Fill="{StaticResource RepublicColor}"/>
-
-                <Rectangle Grid.Column="1" Grid.Row="2" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="1" Grid.Row="3" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="1" Grid.Row="4" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="1" Grid.Row="5" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="1" Grid.Row="6" Fill="{StaticResource BoardBorderColor}"/>
-                <Rectangle Grid.Column="1" Grid.Row="7" Fill="{StaticResource StationColor}"/>
-                <Rectangle Grid.Column="1" Grid.Row="8" Fill="{StaticResource BoardBorderColor}"/>
-                <Rectangle Grid.Column="1" Grid.Row="9" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="1" Grid.Row="10" Fill="{StaticResource ChanceColor}"/>
-                <Rectangle Grid.Column="1" Grid.Row="11" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="1" Grid.Row="12" Fill="{StaticResource RepublicColor}"/>
-
-                <Rectangle Grid.Column="2" Grid.Row="1" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="3" Grid.Row="1" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="4" Grid.Row="1" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="5" Grid.Row="1" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="6" Grid.Row="1" Fill="{StaticResource BoardBorderColor}"/>
-                <Rectangle Grid.Column="7" Grid.Row="1" Fill="{StaticResource StationColor}"/>
-                <Rectangle Grid.Column="8" Grid.Row="1" Fill="{StaticResource BoardBorderColor}"/>
-                <Rectangle Grid.Column="9" Grid.Row="1" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="10" Grid.Row="1" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="11" Grid.Row="1" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="12" Grid.Row="1" Fill="{StaticResource RepublicColor}"/>
-
-                <Rectangle Grid.Column="13" Grid.Row="2" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="13" Grid.Row="3" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="13" Grid.Row="4" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="13" Grid.Row="5" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="13" Grid.Row="6" Fill="{StaticResource BoardBorderColor}"/>
-                <Rectangle Grid.Column="13" Grid.Row="7" Fill="{StaticResource StationColor}"/>
-                <Rectangle Grid.Column="13" Grid.Row="8" Fill="{StaticResource BoardBorderColor}"/>
-                <Rectangle Grid.Column="13" Grid.Row="9" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="13" Grid.Row="10" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="13" Grid.Row="11" Fill="{StaticResource RepublicColor}"/>
-                <Rectangle Grid.Column="13" Grid.Row="12" Fill="{StaticResource RepublicColor}"/>
-                
-                <Border Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="11" Grid.RowSpan="11" BorderThickness="20" BorderBrush="{StaticResource BoardBorderColor}">
-                    <Rectangle  Fill="{StaticResource BoardBackgroundColor}"/>
-                </Border>
+                <ItemsControl ItemsSource="{Binding Communopoly.Board.Spaces}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel Width="400" />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Width="50" Height="50">
+                                <Grid.Style>
+                                    <Style>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Color, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" Value="White">
+                                                <Setter Property="Grid.Background" Value="#FFE2C5A8"></Setter>
+                                            </DataTrigger>
+                                            <DataTrigger Binding="{Binding Color, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" Value="Black">
+                                                <Setter Property="Grid.Background" Value="#FF765739"></Setter>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Grid.Style>
+                                <!--<ContentPresenter Grid.Row="0" Style="{StaticResource PiecePresenter}" Content="{Binding}"/>-->
+                                <Button Style="{StaticResource BoardButtonStyle}">
+                                    <Image Width="50" Height="50" Source="{Binding Piece.Image, UpdateSourceTrigger=PropertyChanged, NotifyOnSourceUpdated=True}"></Image>
+                                </Button>
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
 
             </Grid>
         </Grid>
