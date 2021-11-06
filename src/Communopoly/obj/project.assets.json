@@ -10,7 +10,10 @@
         },
         "runtime": {
           "bin/placeholder/Library.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
       }
     }
   },

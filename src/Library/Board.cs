@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace Library
 {
 
@@ -23,13 +22,10 @@ namespace Library
         private int[] generateRandomRepublicValues(int siberiaIndex) {
             Random _rnd = new Random();
             int[] rndTotal = Enumerable.Range(0, siberiaIndex).OrderBy(c => _rnd.Next()).ToArray();
-
             int[] rndSelected = new int[8];
             Array.Copy(rndTotal, 0, rndSelected, 0, 8);
-
             int rnd = _rnd.Next(0, 8);
             rndSelected[rnd] = siberiaIndex;
-
             return rndSelected;
         }
         private Republic MakeRepublic(int pos, int[] randomRepublicValues) {
@@ -47,37 +43,40 @@ namespace Library
             Spaces = new ObservableCollection<Space>();
 
             for (int pos = 0; pos < Size; pos++)
+            {
+                Space space = null;
+                
                 switch (pos)
                 {
                     default:
-                        Republic republic = MakeRepublic(pos, randomRepublicValues);
-                        Spaces.Add(republic);
+                        space = MakeRepublic(pos, randomRepublicValues);
                         break;
-                    case 5: case 15: case 25: case 35:
-                        Station station = new();
-                        Spaces.Add(station);
+                    case 5:
+                    case 15:
+                    case 25:
+                    case 35:
+                        space = new Station();
                         break;
-                    case 7: case 13:
-                        Chance chance = new();
-                        Spaces.Add(chance);
+                    case 7:
+                    case 13:
+                        space = new Chance();
                         break;
                     case 0:
-                        Start start = new();
-                        Spaces.Add(start);
+                        space = new Start();
                         break;
                     case 10:
-                        Reeducation reeducation = new();
-                        Spaces.Add(reeducation);
+                        space = new Reeducation();
                         break;
                     case 20:
-                        Katorga katorga = new();
-                        Spaces.Add(katorga);
+                        space = new Katorga();
                         break;
                     case 30:
-                        Redistribution redistribution = new();
-                        Spaces.Add(redistribution);
+                        space = new Redistribution();
                         break;
                 }
+                space.SetIndices(pos);
+                Spaces.Add(space);
+            }
         }
         public enum Republics
         {

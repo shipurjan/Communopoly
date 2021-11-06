@@ -1,6 +1,7 @@
 ﻿using Library;
 using Library.Spaces;
 using Library.Republics;
+using System.Collections.ObjectModel;
 using System;
 
 
@@ -12,7 +13,7 @@ class LibraryTest
         Board board01 = new();
         for (int i = 0; i < Board.Size; i++)
         {
-            Console.WriteLine(board01.Spaces[i]);
+            Console.WriteLine($"{board01.Spaces[i]} {board01.Spaces[i].RowIndex} {board01.Spaces[i].ColumnIndex}");
         }
     }
 }

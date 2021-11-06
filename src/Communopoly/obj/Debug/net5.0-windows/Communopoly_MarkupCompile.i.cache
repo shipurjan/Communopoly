@@ -1,5 +1,5 @@
 ﻿Communopoly
-
+1.0.0.0
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\niar\Documents\github\Communopoly\src\Communopoly\App.xaml
 11407045341
 
-5-1070623794
+71835424620
 203-869674596
 MainWindow.xaml;
 
-False
+True
 
