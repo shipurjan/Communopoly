@@ -8,5 +8,7 @@ namespace Library.Spaces
 {
     class Station : Space
     {
+        private string color = "#fffcfc";
+        public string Color { get { return color; } }
     }
 }

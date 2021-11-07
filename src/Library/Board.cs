@@ -14,7 +14,6 @@ namespace Library
     {
         public const int Size = 40;
         public ObservableCollection<Space> Spaces { get; set; }
-
         public Board()
         {
             MakeBoard();
@@ -74,6 +73,7 @@ namespace Library
                         space = new Redistribution();
                         break;
                 }
+                space.Position = pos;
                 space.SetIndices(pos);
                 Spaces.Add(space);
             }

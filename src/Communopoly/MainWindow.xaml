@@ -4,21 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Communopoly"
-        xmlns:vm="clr-namespace:Communopoly.ViewModels"
+        xmlns:VM="clr-namespace:Communopoly.ViewModels"
         mc:Ignorable="d"
         Title="Communopoly" Height="768" Width="1152" Background="#2D2D30" WindowStyle="SingleBorderWindow" ResizeMode="NoResize" BorderThickness="0,0,0,0">
     <Window.DataContext>
-        <vm:BoardViewModel />
+        <VM:BoardViewModel />
     </Window.DataContext>
     <Window.Resources>
-        <SolidColorBrush x:Key="StartColor" Color="#19734f" />
-        <SolidColorBrush x:Key="RepublicColor" Color="#9a1c19" />
-        <SolidColorBrush x:Key="StationColor" Color="#fffcfc" />
-        <SolidColorBrush x:Key="ChanceColor" Color="#7f0f70" />
-        <SolidColorBrush x:Key="ReeducationColor" Color="#0088aa" />
-        <SolidColorBrush x:Key="KatorgaColor" Color="#000000" />
-        <SolidColorBrush x:Key="RedistributionColor" Color="#cc0000" />
-        <SolidColorBrush x:Key="SiberiaColor" Color="#1b395d" />
         <SolidColorBrush x:Key="BoardBorderColor" Color="#ab734c" />
         <SolidColorBrush x:Key="BoardBackgroundColor" Color="#b9baa8" />
     </Window.Resources>
@@ -38,65 +30,69 @@
                 <RowDefinition Height="*"></RowDefinition>
                 <RowDefinition Height="20"></RowDefinition>
             </Grid.RowDefinitions>
-            <Grid Grid.Column="1" Grid.Row="1">
-                <ItemsControl ItemsSource="{Binding Communopoly.Spaces}">
-                    <ItemsControl.ItemsPanel>
-                        <ItemsPanelTemplate>
+            <ItemsControl ItemsSource="{Binding Communopoly.Spaces}" Grid.Column="1" Grid.Row="1">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="5"></ColumnDefinition>
+                                <ColumnDefinition Width="12*"></ColumnDefinition>
+                                <ColumnDefinition Width="8*"></ColumnDefinition>
+                                <ColumnDefinition Width="8*"></ColumnDefinition>
+                                <ColumnDefinition Width="8*"></ColumnDefinition>
+                                <ColumnDefinition Width="8*"></ColumnDefinition>
+
+                                <ColumnDefinition Width="2*"></ColumnDefinition>
+                                <ColumnDefinition Width="8*"></ColumnDefinition>
+                                <ColumnDefinition Width="2*"></ColumnDefinition>
+
+                                <ColumnDefinition Width="8*"></ColumnDefinition>
+                                <ColumnDefinition Width="8*"></ColumnDefinition>
+                                <ColumnDefinition Width="8*"></ColumnDefinition>
+                                <ColumnDefinition Width="8*"></ColumnDefinition>
+                                <ColumnDefinition Width="12*"></ColumnDefinition>
+                                <ColumnDefinition Width="5"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="5"></RowDefinition>
+                                <RowDefinition Height="12*"></RowDefinition>
+                                <RowDefinition Height="8*"></RowDefinition>
+                                <RowDefinition Height="8*"></RowDefinition>
+                                <RowDefinition Height="8*"></RowDefinition>
+                                <RowDefinition Height="8*"></RowDefinition>
+
+                                <RowDefinition Height="2*"></RowDefinition>
+                                <RowDefinition Height="8*"></RowDefinition>
+                                <RowDefinition Height="2*"></RowDefinition>
+
+                                <RowDefinition Height="8*"></RowDefinition>
+                                <RowDefinition Height="8*"></RowDefinition>
+                                <RowDefinition Height="8*"></RowDefinition>
+                                <RowDefinition Height="8*"></RowDefinition>
+                                <RowDefinition Height="12*"></RowDefinition>
+                                <RowDefinition Height="5"></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                        </Grid>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemContainerStyle>
+                    <Style>
+                        <Setter Property="Grid.Column" Value="{Binding RowIndex}" />
+                        <Setter Property="Grid.Row" Value="{Binding ColumnIndex}" />
+                    </Style>
+                </ItemsControl.ItemContainerStyle>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderBrush="{StaticResource BoardBorderColor}" BorderThickness="2">
                             <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="20"></ColumnDefinition>
-                                    <ColumnDefinition Width="12*"></ColumnDefinition>
-                                    <ColumnDefinition Width="8*"></ColumnDefinition>
-                                    <ColumnDefinition Width="8*"></ColumnDefinition>
-                                    <ColumnDefinition Width="8*"></ColumnDefinition>
-                                    <ColumnDefinition Width="8*"></ColumnDefinition>
-
-                                    <ColumnDefinition Width="2*"></ColumnDefinition>
-                                    <ColumnDefinition Width="8*"></ColumnDefinition>
-                                    <ColumnDefinition Width="2*"></ColumnDefinition>
-
-                                    <ColumnDefinition Width="8*"></ColumnDefinition>
-                                    <ColumnDefinition Width="8*"></ColumnDefinition>
-                                    <ColumnDefinition Width="8*"></ColumnDefinition>
-                                    <ColumnDefinition Width="8*"></ColumnDefinition>
-                                    <ColumnDefinition Width="12*"></ColumnDefinition>
-                                    <ColumnDefinition Width="20"></ColumnDefinition>
-                                </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="20"></RowDefinition>
-                                    <RowDefinition Height="12*"></RowDefinition>
-                                    <RowDefinition Height="8*"></RowDefinition>
-                                    <RowDefinition Height="8*"></RowDefinition>
-                                    <RowDefinition Height="8*"></RowDefinition>
-                                    <RowDefinition Height="8*"></RowDefinition>
-
-                                    <RowDefinition Height="2*"></RowDefinition>
-                                    <RowDefinition Height="8*"></RowDefinition>
-                                    <RowDefinition Height="2*"></RowDefinition>
-
-                                    <RowDefinition Height="8*"></RowDefinition>
-                                    <RowDefinition Height="8*"></RowDefinition>
-                                    <RowDefinition Height="8*"></RowDefinition>
-                                    <RowDefinition Height="8*"></RowDefinition>
-                                    <RowDefinition Height="12*"></RowDefinition>
-                                    <RowDefinition Height="20"></RowDefinition>
-                                </Grid.RowDefinitions>
+                                <Rectangle Fill="{Binding Color}" />
+                                <TextBlock Text="{Binding Position}" Margin="5"/>
                             </Grid>
-                        </ItemsPanelTemplate>
-                    </ItemsControl.ItemsPanel>
-                    <ItemsControl.ItemContainerStyle>
-                        <Style>
-                            <Setter Property="Grid.Column" Value="{Binding Communopoly.Spaces.ColumnIndex}" />
-                            <Setter Property="Grid.Row" Value="{Binding Communopoly.Spaces.RowIndex}" />
-                        </Style>
-                    </ItemsControl.ItemContainerStyle>
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <Rectangle Fill="Blue" />
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
-            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
         </Grid>
     </Grid>
 </Window>

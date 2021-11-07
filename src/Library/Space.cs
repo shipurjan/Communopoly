@@ -9,12 +9,20 @@ namespace Library
 {
     public abstract class Space : PropertyChangedBase
     {
+        private string color = "Red";
+        public virtual string Color { get { return color; } }
+
+        private int position;
+        public int Position { get; set; }
+
         private string columnIndex;
-        public string ColumnIndex { get { return columnIndex; } set { columnIndex = value; } }
+        public string ColumnIndex { get; set; }
+
         private string rowIndex;
-        public string RowIndex { get { return rowIndex; } set { rowIndex = value; } }
-        public void SetIndices(int i) {
-            rowIndex = i switch
+        public string RowIndex { get; set; }
+
+        public void SetIndices(int position) {
+            ColumnIndex = position switch
             {
                 >= 20 and <= 30 => "1",
                 19 or 31 => "2",
@@ -29,7 +37,7 @@ namespace Library
                 >= 0 and <= 10 => "13",
                 _ => "0"
             };
-            columnIndex = i switch
+            RowIndex = position switch
             {
                 >= 10 and <= 20 => "1",
                 9 or 21 => "2",

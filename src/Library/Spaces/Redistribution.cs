@@ -8,5 +8,7 @@ namespace Library.Spaces
 {
     class Redistribution : Space
     {
+        private string color = "#cc0000";
+        public string Color { get { return color; } }
     }
 }

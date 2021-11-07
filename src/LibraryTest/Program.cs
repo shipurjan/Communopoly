@@ -7,13 +7,12 @@ using System;
 
 class LibraryTest
 {
-    static void Main()
+    public static Board Communopoly { get; set; }
+    public static void Main()
     {
-        // Display the number of command line arguments.
-        Board board01 = new();
-        for (int i = 0; i < Board.Size; i++)
-        {
-            Console.WriteLine($"{board01.Spaces[i]} {board01.Spaces[i].RowIndex} {board01.Spaces[i].ColumnIndex}");
+        Communopoly = new Board();
+        for (int i = 0; i < Board.Size; i++) {
+            Console.WriteLine($"{Communopoly.Spaces[i]} {Communopoly.Spaces[i].Color} {Communopoly.Spaces[i].Position} {Communopoly.Spaces[i].ColumnIndex} {Communopoly.Spaces[i].RowIndex}");
         }
     }
 }

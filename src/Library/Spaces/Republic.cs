@@ -8,27 +8,8 @@ namespace Library.Spaces
 {
     public abstract class Republic : Space
     {
-        private RepublicColor republicColor;
-        public RepublicColor RepublicColor { get; set; }
+        private string color = "#9a1c19";
+        public string Color { get { return color; } }
 
-    }
-    public enum RepublicColor
-    {
-        armenian,
-        azerbaijan,
-        byelorussian,
-        estonian,
-        georgian,
-        kazakh,
-        kirghiz,
-        latvian,
-        lithuanian,
-        moldavian,
-        russian,
-        siberia,
-        tajik,
-        turkmen,
-        ukrainian,
-        uzbek
     }
 }

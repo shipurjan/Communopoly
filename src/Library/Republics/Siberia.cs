@@ -9,5 +9,7 @@ namespace Library.Republics
 {
     class Siberia : Republic
     {
+        private string color = "#1b395d";
+        public string Color { get { return color; } }
     }
 }

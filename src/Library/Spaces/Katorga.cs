@@ -8,5 +8,7 @@ namespace Library.Spaces
 {
     class Katorga : Space
     {
+        private string color = "#000000";
+        public string Color { get { return color; } }
     }
 }

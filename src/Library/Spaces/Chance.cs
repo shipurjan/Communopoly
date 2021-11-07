@@ -8,6 +8,7 @@ namespace Library.Spaces
 {
     public class Chance : Space
     {
-
+        private string color = "#7f0f70";
+        public string Color { get { return color; } }
     }
 }

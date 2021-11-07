@@ -8,5 +8,7 @@ namespace Library.Spaces
 {
     class Reeducation : Space
     {
+        private string color = "#0088aa";
+        public string Color { get { return color; } }
     }
 }
