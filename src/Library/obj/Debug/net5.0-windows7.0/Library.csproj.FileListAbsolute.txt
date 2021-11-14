@@ -9,3 +9,4 @@ C:\Users\niar\Documents\github\Communopoly\src\Library\obj\Debug\net5.0-windows7
 C:\Users\niar\Documents\github\Communopoly\src\Library\obj\Debug\net5.0-windows7.0\Library.dll
 C:\Users\niar\Documents\github\Communopoly\src\Library\obj\Debug\net5.0-windows7.0\ref\Library.dll
 C:\Users\niar\Documents\github\Communopoly\src\Library\obj\Debug\net5.0-windows7.0\Library.pdb
+C:\Users\niar\Documents\github\Communopoly\src\Library\obj\Debug\net5.0-windows7.0\Library.csproj.AssemblyReference.cache
