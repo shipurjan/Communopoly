@@ -17,6 +17,12 @@ namespace Library
             this.board = board;
             this.playerColor = playerColor;
         }
+        public class Kartka_Currency()
+        {
+            int Starting_Currency = 100; // Zaczynamy grę z x ilością kartek
+			
+        }
+    
     }
 
     public enum PlayerColor
