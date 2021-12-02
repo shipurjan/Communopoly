@@ -8,6 +8,6 @@ namespace Library
 {
     class Move
     {
-      
+      int Position = 0;
     }
 }
