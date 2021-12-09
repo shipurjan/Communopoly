@@ -30,7 +30,7 @@
                 <RowDefinition Height="*"></RowDefinition>
                 <RowDefinition Height="20"></RowDefinition>
             </Grid.RowDefinitions>
-            <ItemsControl ItemsSource="{Binding Communopoly.Spaces}" Grid.Column="1" Grid.Row="1">
+            <ItemsControl ItemsSource="{Binding Communopoly.Board.Spaces}" Grid.Column="1" Grid.Row="1">
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
                         <Grid>
@@ -72,7 +72,6 @@
                                 <RowDefinition Height="12*"></RowDefinition>
                                 <RowDefinition Height="5"></RowDefinition>
                             </Grid.RowDefinitions>
-
                         </Grid>
                     </ItemsPanelTemplate>
                 </ItemsControl.ItemsPanel>
@@ -132,27 +131,23 @@
                     <RowDefinition Height="12*"></RowDefinition>
                     <RowDefinition Height="5"></RowDefinition>
                 </Grid.RowDefinitions>
-
-                <Grid Grid.Column="1" Grid.Row="3">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="5"></ColumnDefinition>
-                        <ColumnDefinition Width="*"></ColumnDefinition>
-                        <ColumnDefinition Width="5"></ColumnDefinition>
-                        <ColumnDefinition Width="*"></ColumnDefinition>
-                        <ColumnDefinition Width="5"></ColumnDefinition>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="5"></RowDefinition>
-                        <RowDefinition Height="*"></RowDefinition>
-                        <RowDefinition Height="5"></RowDefinition>
-                        <RowDefinition Height="*"></RowDefinition>
-                        <RowDefinition Height="5"></RowDefinition>
-                    </Grid.RowDefinitions>
-                    <Ellipse Fill="Blue" Grid.Column="1" Grid.Row="1" Width="{Binding ActualHeight, RelativeSource={RelativeSource Self}}" Stroke="CornflowerBlue" StrokeThickness="2"/>
-                    <Ellipse Fill="Yellow" Grid.Column="1" Grid.Row="3" Width="{Binding ActualHeight, RelativeSource={RelativeSource Self}}" Stroke="YellowGreen" StrokeThickness="2"/>
-                    <Ellipse Fill="Lime" Grid.Column="3" Grid.Row="1" Width="{Binding ActualHeight, RelativeSource={RelativeSource Self}}" Stroke="DarkOliveGreen" StrokeThickness="2"/>
-                    <Ellipse Fill="Red" Grid.Column="3" Grid.Row="3" Width="{Binding ActualHeight, RelativeSource={RelativeSource Self}}" Stroke="OrangeRed" StrokeThickness="2"/>
-                </Grid>
+                <DataGrid
+                    ItemsSource="{Binding PlayerModel1.Player}"
+                   >
+                    <DataGrid.CellStyle>
+                        <Style TargetType="{x:Type DataGridCell}">
+                            <Style.Triggers>
+                                <DataTrigger>
+                                    <Setter Property="Grid.Column" Value="{Binding ColumnIndex}" />
+                                    <Setter Property="Grid.Row" Value="{Binding RowIndex}" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DataGrid.CellStyle>
+                    <DataGrid>
+                        <Ellipse Fill="Yellow"/>
+                    </DataGrid>
+                </DataGrid>
             </Grid>
         </Grid>
     </Grid>

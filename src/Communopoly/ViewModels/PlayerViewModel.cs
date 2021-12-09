@@ -8,9 +8,9 @@ using System.Windows.Threading;
 
 namespace Communopoly.ViewModels
 {
-    class PlayerViewModel : PropertyChangedBase
+    public class PlayerViewModel : PropertyChangedBase
     {
-        public PlayerViewModel(Board board, PlayerColor playerColor) {
+        public PlayerViewModel(Board board, Library.PlayerColor playerColor) {
             Player = new Player(board, playerColor);
         }
         public Player Player { get; set; }

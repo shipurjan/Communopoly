@@ -11,10 +11,14 @@ namespace Communopoly.ViewModels
 {
     public class BoardViewModel : PropertyChangedBase
     {
+        private PlayerViewModel playerView1;
         public BoardViewModel()
         {
-            Communopoly = new Board();
+            Communopoly = new Game();
+            PlayerModel1 = new PlayerViewModel(Communopoly.Board, PlayerColor.red);
+            PlayerModel1.Player.Position = 5;
         }
-        public Board Communopoly { get; set; }
+        public Game Communopoly { get; set; }
+        public PlayerViewModel PlayerModel1 { get; set; }
     }
 }
