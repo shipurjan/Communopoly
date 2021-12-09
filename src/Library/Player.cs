@@ -19,8 +19,25 @@ namespace Library
         }
         public class Kartka_Currency()
         {
-            int Starting_Currency = 100; // Zaczynamy grę z x ilością kartek
+			public int Starting_Currency = 100; // Zaczynamy grę z x ilością kartek
+			public Card[] Cards = new Card[10];
+			public int index = 0;
 			
+				public class Card
+					{
+						public int[] image;
+						public string name;
+						public int price = 0; //if user needs to pay.
+						public int outofJail = 0; //0 if not, 1 if out of jail card
+						public int gotoJail = 0; // =1 if its a go to jail card
+					}
+					
+				public int drawCard()
+					{
+						Random rand = new Random(); 
+						int index = rand.Next(0, 9); 
+						return index;
+					}
         }
     
     }
