@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Library
 {
-    class Move
+    class Move (string[] move_amount)
     {
-      int Position = 0;
+
+       int Position =+ move_amount;
+
     }
 }
