@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 /*
  * W tej republice:
- * 
+ * Pola są warte połowe "normalnej" ceny
+ * ALE zapewniają tylko ~75% normalnego przychodu czy innego efektu
  */
 
 namespace Library.Republics
