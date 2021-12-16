@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 /*
  * W tej republice:
- * 
+ * Do każdego rzutu kostką dodajemy +1
+ * Rzut 5 - pionek porusza się o 6 pól
  */
 
 namespace Library.Republics
