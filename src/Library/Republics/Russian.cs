@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 /*
  * W tej republice:
- * 
+ * Skoro jest to tak jakby stolica
+ * to ceny posiadłości są x1.5 droższe
  */
 
 namespace Library.Republics
