@@ -21,7 +21,7 @@ namespace Library
 
             //display the result of the rolls
             Console.WriteLine("Die 1 rolled a {0}", newRun.Die1);
-            Console.WriteLine("Die 2 rolled a {0}", newRun.Die2);
+            
 
 
 
@@ -31,7 +31,7 @@ namespace Library
     class Dice
     {
         private int die1;
-        private int die2;
+        
 
         public int Die1
         {
@@ -40,18 +40,14 @@ namespace Library
         }
 
 
-        public int Die2
-        {
-            get { return die2; }
-            set { die2 = value; }
-        }
+        
 
         public void Roll()
         {
             //get a random number object we can the use to determine the die face
             Random rand1 = new Random();
             Die1 = rand1.Next(1, 6);
-            Die2 = rand1.Next(1, 6);
+           
         }
     }
 }
