@@ -1,0 +1,7 @@
+src/.vs
+src/Communopoly/bin
+src/Communopoly/obj
+src/Library/bin
+src/Library/obj
+src/LibraryTest/bin
+src/LibraryTest/obj
