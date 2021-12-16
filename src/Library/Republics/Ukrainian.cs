@@ -7,7 +7,11 @@ using System.Threading.Tasks;
 
 /*
  * W tej republice:
- * 
+ * Czarnobyl - strefa radioaktywyna
+ * ale zamiast zdrowia czy czegoś, za każdą rundę tutaj:
+ * -5 kartek
+ *
+ * albo jednorazowo za wejście -5 kartek
  */
 
 namespace Library.Republics
