@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 
 /*
  * W tej republice:
- * 
+ * jeśli stanie się na [?]
+ * to efekty dające lub zabierające coś są 2 razy bardziej skutecze
+ * kara -10 kartek --> kara -20 kartek
  */
 
 namespace Library.Republics
