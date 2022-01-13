@@ -10,5 +10,12 @@ namespace Library.Spaces
     {
         private string color = "#fffcfc";
         public string Color { get { return color; } }
+
     }
+}
+public abstract class Piece : PropertyChangedBase
+{
+      if (space == Station){
+
+      }
 }
