@@ -12,6 +12,9 @@ namespace Library
         private string color = "Red";
         public virtual string Color { get { return color; } }
 
+        private string name;
+        public virtual string Name { get; set; }
+
         private int position;
         public int Position { get; set; }
 

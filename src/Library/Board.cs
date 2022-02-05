@@ -49,28 +49,35 @@ namespace Library
                 {
                     default:
                         space = MakeRepublic(pos, randomRepublicValues);
+                        space.Name = "Republic";
                         break;
                     case 5:
                     case 15:
                     case 25:
                     case 35:
                         space = new Station();
+                        space.Name = "Station";
                         break;
                     case 7:
                     case 13:
                         space = new Chance();
+                        space.Name = "Chance";
                         break;
                     case 0:
                         space = new Start();
+                        space.Name = "Start";
                         break;
                     case 10:
                         space = new Reeducation();
+                        space.Name = "Reeducation";
                         break;
                     case 20:
                         space = new Katorga();
+                        space.Name = "Katorga";
                         break;
                     case 30:
                         space = new Redistribution();
+                        space.Name = "Redistribution";
                         break;
                 }
                 space.Position = pos;
